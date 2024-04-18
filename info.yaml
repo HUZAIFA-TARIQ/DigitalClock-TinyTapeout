@@ -3,7 +3,7 @@ project:
   title:        "TDM Digital Clock"      # Project title
   author:       "Hassan & Huzaifa tariq"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "a digital clock that uses time division multiplexing, using 8 outputs to drive six seen segmetns displas"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     50000000       # Clock frequency in Hz (or 0 if not applicable)
 
