@@ -15,7 +15,7 @@ project:
   
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
-    - "Digital_clock.v"
+    - "Top_99_Counter.v"
     - "bcd_to_SSG.v"
     - "slow_clock.v"
     - "tt_um_DigitalClockTop.v"
