@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1713538661">
+  <File Type="BITSTR-BMM" Name="tt_um_DigitalClockTop_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="tt_um_DigitalClockTop_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="tt_um_DigitalClockTop_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="tt_um_DigitalClockTop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="tt_um_DigitalClockTop.tcl"/>
+  <File Type="OPT-TIMING" Name="tt_um_DigitalClockTop_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="tt_um_DigitalClockTop_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="tt_um_DigitalClockTop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="tt_um_DigitalClockTop_reports.tcl"/>
+  <File Type="OPT-DRC" Name="tt_um_DigitalClockTop_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="tt_um_DigitalClockTop.hwdef"/>
+  <File Type="PWROPT-DCP" Name="tt_um_DigitalClockTop_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="tt_um_DigitalClockTop_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="tt_um_DigitalClockTop_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="tt_um_DigitalClockTop_placed.dcp"/>
+  <File Type="PLACE-IO" Name="tt_um_DigitalClockTop_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="tt_um_DigitalClockTop_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="tt_um_DigitalClockTop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="tt_um_DigitalClockTop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="tt_um_DigitalClockTop_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="tt_um_DigitalClockTop_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="tt_um_DigitalClockTop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="tt_um_DigitalClockTop.bgn"/>
+  <File Type="PLACE-TIMING" Name="tt_um_DigitalClockTop_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="tt_um_DigitalClockTop_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="tt_um_DigitalClockTop.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="tt_um_DigitalClockTop_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="tt_um_DigitalClockTop_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="tt_um_DigitalClockTop_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="tt_um_DigitalClockTop.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="tt_um_DigitalClockTop_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="tt_um_DigitalClockTop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="tt_um_DigitalClockTop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="tt_um_DigitalClockTop_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="tt_um_DigitalClockTop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="tt_um_DigitalClockTop_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="tt_um_DigitalClockTop.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="tt_um_DigitalClockTop_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="tt_um_DigitalClockTop.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="tt_um_DigitalClockTop_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="tt_um_DigitalClockTop_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="tt_um_DigitalClockTop.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="tt_um_DigitalClockTop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="tt_um_DigitalClockTop_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="tt_um_DigitalClockTop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="tt_um_DigitalClockTop_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="tt_um_DigitalClockTop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="tt_um_DigitalClockTop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="tt_um_DigitalClockTop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="tt_um_DigitalClockTop_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="tt_um_DigitalClockTop_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="tt_um_DigitalClockTop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="tt_um_DigitalClockTop_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="tt_um_DigitalClockTop_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="tt_um_DigitalClockTop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="tt_um_DigitalClockTop_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="tt_um_DigitalClockTop_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="tt_um_DigitalClockTop_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="tt_um_DigitalClockTop_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="tt_um_DigitalClockTop_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="tt_um_DigitalClockTop_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="tt_um_DigitalClockTop.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="tt_um_DigitalClockTop_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="tt_um_DigitalClockTop.rbt"/>
+  <File Type="BITSTR-NKY" Name="tt_um_DigitalClockTop.nky"/>
+  <File Type="BG-DRC" Name="tt_um_DigitalClockTop.drc"/>
+  <File Type="RDI-RDI" Name="tt_um_DigitalClockTop.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Digital_clock.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bcd_ssd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/slow_clock.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TOP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="tt_um_DigitalClockTop"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/consts.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/consts.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
