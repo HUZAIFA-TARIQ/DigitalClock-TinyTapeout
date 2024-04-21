@@ -9,7 +9,7 @@ This project aims to design a digital clock using Verilog HDL (Hardware Descript
 ![image](https://github.com/HUZAIFA-TARIQ/GIKI-TapeOut-2/assets/90867361/828f4e6d-6ac7-4adb-a833-7e66fccc1fad)
 
 
-**Key Components:**
+## **Key Components:**
 
 ### _Verilog HDL:_
 Verilog is a hardware description language used to model digital systems. It allows designers to describe the behavior of digital circuits and their interactions.
