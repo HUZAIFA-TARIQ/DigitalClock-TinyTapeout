@@ -63,6 +63,9 @@ Anode selection is a technique used to enable individual seven-segment displays 
 
 By combining multiplexing with anode selection, the digital clock efficiently utilizes its limited output pins to drive multiple seven-segment displays, providing a clear and accurate representation of time while minimizing hardware complexity and resource usage.
 
+# 2D Preview
+![image](https://github.com/HUZAIFA-TARIQ/GIKI-TapeOut-2/assets/90867361/813487eb-e8ae-4833-a23f-db340de513b1)
+
 # Tiny Tapeout Verilog Project Template
 
 - [Read the documentation for project](docs/info.md)
