@@ -6,7 +6,8 @@
 ## Overview:
 This project aims to design a digital clock using Verilog HDL (Hardware Description Language), Functionally verify  it on a Field Programmable Gate Array (FPGA) board and to submit for fabrication of its ASIC through Efabless' TinyTapeout shuttle 6 . The digital clock will display hours, minutes, and seconds on a 7-segment display using time division multiplexing technique. It leverages the capabilities of a language learning model like ChatGPT to generate the Verilog code for the clock module. Additionally, the project adheres to pinout constraints, ensuring compatibility withthe design constraints as per TinyTapeout's requirements. 
 
-![image](https://github.com/HUZAIFA-TARIQ/GIKI-TapeOut-2/assets/90867361/828f4e6d-6ac7-4adb-a833-7e66fccc1fad)
+![image](https://github.com/HUZAIFA-TARIQ/GIKI-TapeOut-2/assets/90867361/b1005d0f-e1ef-47d7-9ba1-f122c1844b09)
+
 
 
 ## **Key Components:**
