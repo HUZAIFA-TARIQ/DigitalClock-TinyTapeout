@@ -8,9 +8,9 @@
 
 TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
 
-**Project Description:**
 
-Title: "Digital Clock Design Using Verilog and Time Division Multiplexing"
+
+# Language Learning Model based Digital Clock Using Time Division Multiplexing
 
 Overview:
 This project aims to design a digital clock using Verilog HDL (Hardware Description Language) and implement it on a Field Programmable Gate Array (FPGA) board prior to submission for fabrication of its ASIC through Efabless' TinyTapeout shuttle 6 . The digital clock will display hours, minutes, and seconds on a 7-segment display using time division multiplexing technique. It leverages the capabilities of a language learning model like ChatGPT to generate the Verilog code for the clock module. Additionally, the project adheres to pinout constraints, ensuring compatibility with FPGA boards having limited pin availability. 
