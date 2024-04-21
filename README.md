@@ -4,7 +4,7 @@
 # Large Language Model based Digital Clock Using Time Division Multiplexing
 
 ## Overview:
-This project aims to design a digital clock using Verilog HDL (Hardware Description Language), Functionally verify  it on a Field Programmable Gate Array (FPGA) board and to submit for fabrication of its ASIC through Efabless' TinyTapeout shuttle 6 . The digital clock will display hours, minutes, and seconds on a 7-segment display using time division multiplexing technique. It leverages the capabilities of a language learning model like ChatGPT to generate the Verilog code for the clock module. Additionally, the project adheres to pinout constraints, ensuring compatibility withthe design constraints as per TinyTapeout's requirements. 
+This project aims to design a digital clock using Verilog HDL (Hardware Description Language), functionally verify  it on a Field Programmable Gate Array (FPGA) board and to submit for fabrication of its ASIC through Efabless' TinyTapeout shuttle 6 . The digital clock will display hours, minutes, and seconds on 6 different 7-segment displays using time division multiplexing technique. It leverages the capabilities of a Large language model like ChatGPT to generate the Verilog code for the clock module. Additionally, the project adheres to pinout constraints, ensuring compliance with the design constraints of TinyTapeout. 
 
 ![image](https://github.com/HUZAIFA-TARIQ/GIKI-TapeOut-2/assets/90867361/b1005d0f-e1ef-47d7-9ba1-f122c1844b09)
 
@@ -16,17 +16,17 @@ This project aims to design a digital clock using Verilog HDL (Hardware Descript
 Verilog is a hardware description language used to model digital systems. It allows designers to describe the behavior of digital circuits and their interactions.
 
 #### Time Division Multiplexing (TDM): 
-TDM is a technique used to share a single communication channel among multiple devices by dividing the channel into time slots. In this project, TDM is employed to cycle through the digits of the clock display rapidly, giving the illusion of simultaneous display of hours, minutes, and seconds.
+TDM is a technique used to share a single communication channel among multiple devices by dividing the channel into time slots. In this project, TDM is employed to cycle through the digits of the clock display rapidly, simultaneously displaying hours, minutes, and seconds.
 
 #### ChatGPT:
-ChatGPT is a language learning model capable of generating human-like text based on input prompts. In this project, ChatGPT is utilized to generate the Verilog code for the digital clock module based on the provided specifications and requirements.
+ChatGPT is a Large language Model capable of generating human-like text based on input prompts. In this project, ChatGPT is utilized to generate the Verilog code for the digital clock module based on the provided specifications and requirements.
 
 ###FPGA Board: 
-FPGA boards provide a platform for implementing digital designs in hardware. They offer reconfigurability and flexibility, making them suitable for prototyping and development of digital systems. All functional verifcation of the design, prior to and after submission, was done using Nexys DDR-4 FPGA boards.
+FPGA boards provide a platform for implementing digital designs in hardware. They offer reconfigurability and flexibility, making them suitable for prototyping and development of digital systems. All functional verifcation of the design, prior to and after submission, was done using Nexys DDR-4 FPGA board.
 
  ## Pinout Constraints:
 
-The digital clock module is designed to adhere to pinout constraints or which "Time Division Multiplexing" is used to drive the 7-segment displays:
+The digital clock module is designed to adhere to pinout constraints for which "Time Division Multiplexing" is used to drive the 7-segment displays:
 
 ##### cll: clock 
 ##### rst: reset
@@ -38,11 +38,11 @@ The digital clock module is designed to adhere to pinout constraints or which "T
 
 The digital clock designed in this project offers programmability in terms of setting the values of hours, minutes, and seconds. This feature allows users to customize the time displayed by the clock according to their preferences or specific requirements. Here's how the programmability aspect works:
 
-#### The Value Set Register:
+#### Value Set Register:
 The Value Set Register is a 8-bit register that stores data from 8 input pins. The upper 4 bits (MSB 4 Bits) store BCD value of "Tens" for Hours/Minutes/Seconds. The Lower 4 bits (LSB 4 Bits) store BCD value of "Units" for Hours/Minutes/Seconds.
 
 #### Value Set Selection Input:
-2 of the bidirectional IOs are used as an input port (2-Bit), designated for value set selection, allowing users to specify which part of the time (hours/minutes/seconds) they want to set. This input determines whether the incoming data should update the hours, minutes or seconds portion of the clock display as follows;
+2 of the bidirectional IOs are used as an input port (2-Bit), designated for value set selection, allowing users to specify which part of the time (hours/minutes/seconds) they want to set. This input determines whether the incoming data should update the hours, minutes or seconds portion of the clock display as follows:
 ##### 2.1) Value Set Selection Input = 00: Run Clock
 ##### 2.2) Value Set Selection Input = 01: Set Minutes
 ##### 2.3) Value Set Selection Input = 10: Set Hours
