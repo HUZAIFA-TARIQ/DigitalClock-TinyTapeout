@@ -1,18 +1,9 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
-
-- [Read the documentation for project](docs/info.md)
-
-## What is Tiny Tapeout?
-
-TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
-
-
 
 # Language Learning Model based Digital Clock Using Time Division Multiplexing
 
-Overview:
+## Overview:
 This project aims to design a digital clock using Verilog HDL (Hardware Description Language) and implement it on a Field Programmable Gate Array (FPGA) board prior to submission for fabrication of its ASIC through Efabless' TinyTapeout shuttle 6 . The digital clock will display hours, minutes, and seconds on a 7-segment display using time division multiplexing technique. It leverages the capabilities of a language learning model like ChatGPT to generate the Verilog code for the clock module. Additionally, the project adheres to pinout constraints, ensuring compatibility with FPGA boards having limited pin availability. 
 
 ![image](https://github.com/HUZAIFA-TARIQ/GIKI-TapeOut-2/assets/90867361/828f4e6d-6ac7-4adb-a833-7e66fccc1fad)
@@ -20,13 +11,14 @@ This project aims to design a digital clock using Verilog HDL (Hardware Descript
 
 **Key Components:**
 
---- 1)  _Verilog HDL:_ Verilog is a hardware description language used to model digital systems. It allows designers to describe the behavior of digital circuits and their interactions.
+### _Verilog HDL:_
+Verilog is a hardware description language used to model digital systems. It allows designers to describe the behavior of digital circuits and their interactions.
 Time Division Multiplexing (TDM): TDM is a technique used to share a single communication channel among multiple devices by dividing the channel into time slots. In this project, TDM is employed to cycle through the digits of the clock display rapidly, giving the illusion of simultaneous display of hours, minutes, and seconds.
 
 --- 2)  _ChatGPT:_ ChatGPT is a language learning model capable of generating human-like text based on input prompts. In this project, ChatGPT is utilized to generate the Verilog code for the digital clock module based on the provided specifications and requirements.
 FPGA Board: FPGA boards provide a platform for implementing digital designs in hardware. They offer reconfigurability and flexibility, making them suitable for prototyping and development of digital systems.
 
-**Pinout Constraints:**
+ ## **Pinout Constraints:**
 
 The digital clock module is designed to adhere to pinout constraints or which "Time Division Multiplexing" is used to drive the 7-segment displays:
 
@@ -57,6 +49,14 @@ In the digital clock project, multiplexing and anode selection techniques are em
 --- 3) _Anode Selection:_ Anode selection is a technique used to enable individual seven-segment displays in a multiplexed configuration. Each display has its own anode pin, which is connected to a common cathode pin of all the displays. By selectively enabling the anode of one display at a time, the desired digit can be illuminated without interference from other displays. Anode selection pins are bidirectional and controlled by the clock module. Each anode select pin corresponds to a specific digit of the clock display. When the corresponding digit is being displayed, the respective anode select pin is activated to enable that particular display.
 
 By combining multiplexing with anode selection, the digital clock efficiently utilizes its limited output pins to drive multiple seven-segment displays, providing a clear and accurate representation of time while minimizing hardware complexity and resource usage.
+
+# Tiny Tapeout Verilog Project Template
+
+- [Read the documentation for project](docs/info.md)
+
+## What is Tiny Tapeout?
+
+TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
 
 1. Add your Verilog files to the `src` folder.
 2. Edit the [info.yaml](info.yaml) and update information about your project, paying special attention to the `source_files` and `top_module` properties. If you are upgrading an existing Tiny Tapeout project, check out our [online info.yaml migration tool](https://tinytapeout.github.io/tt-yaml-upgrade-tool/).
