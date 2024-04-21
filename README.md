@@ -36,12 +36,12 @@ The Value Set Register is a 8-bit register that stores data from 8 input pins. T
 
 #### Value Set Selection Input:
 Another input port (2-Bit) is designated for value set selection, allowing users to specify which part of the time (hours/minutes/seconds) they want to set. This input determines whether the incoming data should update the hours, minutes or seconds portion of the clock display as follows;
------- 2.1) Value Set Selection Input = 00: Run Clock
------- 2.2) Value Set Selection Input = 01: Set Minutes
------- 2.3) Value Set Selection Input = 10: Set Hours
------- 2.4) Value Set Selection Input = 11: Set Seconds
+##### 2.1) Value Set Selection Input = 00: Run Clock
+##### 2.2) Value Set Selection Input = 01: Set Minutes
+##### 2.3) Value Set Selection Input = 10: Set Hours
+##### 2.4) Value Set Selection Input = 11: Set Seconds
 
-##Time Division Multiplexing and Anode Selection for Seven-Segment Display:
+## Time Division Multiplexing and Anode Selection for Seven-Segment Display:
 
 In the digital clock project, multiplexing and anode selection techniques are employed to efficiently drive multiple seven-segment displays using a minimal number of output pins. Here's a comprehensive explanation of how these techniques are utilized:
 
