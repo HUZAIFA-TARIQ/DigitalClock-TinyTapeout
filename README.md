@@ -23,9 +23,9 @@ FPGA Board: FPGA boards provide a platform for implementing digital designs in h
 
 The digital clock module is designed to adhere to pinout constraints or which "Time Division Multiplexing" is used to drive the 7-segment displays:
 
-8 input pins: for clock input, reset input, value set register input, and value set selection input.
-8 output pins: for segment data output.
-8 bidirectional pins: for anode select pins.
+##### 8 input pins: for clock input, reset input, value set register input, and value set selection input.
+##### 8 output pins: for segment data output.
+##### 8 bidirectional pins: for anode select pins.
 
 ## Programmability:
 
