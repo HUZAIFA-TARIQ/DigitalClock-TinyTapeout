@@ -9,7 +9,8 @@
 TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
 
 To learn more and get started, visit https://tinytapeout.com.
-![Uploading image.png…]()
+![image](https://github.com/HUZAIFA-TARIQ/GIKI-TapeOut-2/assets/90867361/a82655be-fef1-49c7-b156-dd17a8f5a071)
+
 
 ## Verilog Projects
 
