@@ -1,7 +1,7 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg)
 
 
-# Language Learning Model based Digital Clock Using Time Division Multiplexing
+# Large Language Model based Digital Clock Using Time Division Multiplexing
 
 ## Overview:
 This project aims to design a digital clock using Verilog HDL (Hardware Description Language), Functionally verify  it on a Field Programmable Gate Array (FPGA) board and to submit for fabrication of its ASIC through Efabless' TinyTapeout shuttle 6 . The digital clock will display hours, minutes, and seconds on a 7-segment display using time division multiplexing technique. It leverages the capabilities of a language learning model like ChatGPT to generate the Verilog code for the clock module. Additionally, the project adheres to pinout constraints, ensuring compatibility withthe design constraints as per TinyTapeout's requirements. 
